@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+  <rect width="960" height="460" fill="#f8fafc" />
+  <style>
+    .title { font: 700 24px Arial, sans-serif; fill: #0f172a; }
+    .label { font: 700 16px Arial, sans-serif; fill: #0f172a; }
+    .note { font: 14px Arial, sans-serif; fill: #475569; }
+    .ratio { font: 13px Arial, sans-serif; fill: #1e3a8a; }
+  </style>
+  <text x="240" y="34" text-anchor="middle" class="title">Bullish Bat</text>
+  <text x="720" y="34" text-anchor="middle" class="title">Bearish Bat</text>
+
+  <line x1="480" y1="24" x2="480" y2="430" stroke="#cbd5e1" />
+
+  <polyline
+    points="50,365 155,78 260,230 365,130 445,333"
+    fill="none"
+    stroke="#2563eb"
+    stroke-width="4"
+    stroke-linejoin="round"
+  />
+  <line x1="50" y1="365" x2="445" y2="333" stroke="#7c3aed" stroke-width="2" stroke-dasharray="7 6" />
+  <polygon points="50,365 155,78 260,230" fill="#3b82f6" fill-opacity="0.10" />
+  <polygon points="260,230 365,130 445,333" fill="#8b5cf6" fill-opacity="0.12" />
+
+  <polyline
+    points="515,78 595,280 700,180 805,332 910,45"
+    fill="none"
+    stroke="#dc2626"
+    stroke-width="4"
+    stroke-linejoin="round"
+  />
+  <line x1="515" y1="78" x2="910" y2="45" stroke="#7c3aed" stroke-width="2" stroke-dasharray="7 6" />
+  <polygon points="515,78 595,280 700,180" fill="#ef4444" fill-opacity="0.10" />
+  <polygon points="700,180 805,332 910,45" fill="#f97316" fill-opacity="0.12" />
+
+  <g class="label" text-anchor="middle">
+    <text x="50" y="390">X</text><text x="155" y="68">A</text><text x="260" y="253">B</text><text x="365" y="120">C</text><text x="445" y="358">D</text>
+    <text x="515" y="68">X</text><text x="595" y="305">A</text><text x="700" y="170">B</text><text x="805" y="357">C</text><text x="910" y="35">D</text>
+  </g>
+
+  <text x="202" y="176" class="ratio">AB/XA 0.32–0.50</text>
+  <text x="300" y="205" class="ratio">BC/AB 0.38–0.88</text>
+  <text x="350" y="268" class="ratio">CD/BC 1.61–2.61</text>
+  <text x="242" y="372" class="ratio">AD/XA ≈ 0.886</text>
+
+  <text x="620" y="226" class="ratio">AB/XA 0.32–0.50</text>
+  <text x="720" y="268" class="ratio">BC/AB 0.38–0.88</text>
+  <text x="822" y="190" class="ratio">CD/BC 1.61–2.61</text>
+  <text x="716" y="72" class="ratio">AD/XA ≈ 0.886</text>
+
+  <path d="M445 333 C455 310, 462 292, 472 278" fill="none" stroke="#16a34a" stroke-width="4" marker-end="url(#arrow-green)" />
+  <path d="M910 45 C920 70, 927 88, 934 104" fill="none" stroke="#dc2626" stroke-width="4" marker-end="url(#arrow-red)" />
+  <text x="420" y="414" class="note">LONG after confirmed D</text>
+  <text x="757" y="414" class="note">SHORT after confirmed D</text>
+
+  <defs>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#16a34a" />
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#dc2626" />
+    </marker>
+  </defs>
+</svg>
